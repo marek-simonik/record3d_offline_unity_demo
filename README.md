@@ -1,5 +1,7 @@
 # Unity VFX Graph Record3D offline demo — replaying pre-recorded 3D Videos
 
+**2021/07/28 Update**: LiDAR videos recorded with the "Higher quality LiDAR recording" option are now supported! **Download the new `librecord3d_unity_playback.dylib` and/or `record3d_unity_playback.dll` file** (read below).
+
 This demo is shows how to replay already recorded [Record3D app's](https://record3d.app/) 3D Videos using Unity's VFX Graph. It is based on the [Live Streaming Unity demo](https://github.com/marek-simonik/record3d_unity_demo), but instead allows you to replay exported `.r3d` 3D Videos made by Record3D.
 
 *Note that this is an alpha- / beta-quality demo.*
@@ -13,7 +15,7 @@ Screenshot 1: Specifying `.r3d` file path (detailed instructions below):
 This project contains a modified [Particles VFX](https://github.com/keijiro/Rsvfx/blob/master/Assets/Test/Vfx/Particles.vfx) of [Keijiro Takahashi](https://github.com/keijiro) which demonstrates how to integrate Record3D pre-recorded video playback into an existing VFX Graph.
 
 ### What will you need?
-- A 3D Video created by [the Record3D iOS app](https://record3d.app), exported into the `.r3d` format. Do not use 3D Videos recorded with the "Higher quality LiDAR recording" option enabled. The best effect is achieved with 3D Videos made using the selfie FaceID camera.
+- A 3D Video created by [the Record3D iOS app](https://record3d.app), exported into the `.r3d` format. The best effect is achieved with 3D Videos made using the selfie FaceID camera.
 - Unity 2019.4.11 or newer.
 
 ### Before opening the Unity project
